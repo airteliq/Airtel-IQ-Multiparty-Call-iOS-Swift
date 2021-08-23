@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F51E9221B651D2002F7638 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51E9121B651D2002F7638 /* AppDelegate.swift */; };
+		27F51E9721B651D2002F7638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F51E9521B651D2002F7638 /* Main.storyboard */; };
+		27F51E9921B651D3002F7638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F51E9821B651D3002F7638 /* Assets.xcassets */; };
+		27F51E9C21B651D3002F7638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F51E9A21B651D3002F7638 /* LaunchScreen.storyboard */; };
+		27F51EA721B651D4002F7638 /* QuickApp_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51EA621B651D4002F7638 /* QuickApp_iOSTests.swift */; };
+		27F51EB221B651D4002F7638 /* QuickApp_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51EB121B651D4002F7638 /* QuickApp_iOSUITests.swift */; };
+		27F51EC621B65EEF002F7638 /* EnxJoinRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51EC521B65EEF002F7638 /* EnxJoinRoomViewController.swift */; };
+		27F51EC821B65F06002F7638 /* EnxConfrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51EC721B65F06002F7638 /* EnxConfrenceViewController.swift */; };
+		27F51ECA21B65F1C002F7638 /* EnxMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51EC921B65F1C002F7638 /* EnxMenuViewController.swift */; };
+		27F51ECC21B65F6D002F7638 /* EnxServicesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51ECB21B65F6D002F7638 /* EnxServicesClass.swift */; };
+		27F51ECE21B65F99002F7638 /* EnxNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51ECD21B65F99002F7638 /* EnxNetworkManager.swift */; };
+		27F51ED021B65FC1002F7638 /* EnxRoomInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51ECF21B65FC1002F7638 /* EnxRoomInfoModel.swift */; };
+		27F51ED221B65FE0002F7638 /* EnxConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F51ED121B65FE0002F7638 /* EnxConstant.swift */; };
+		A831F1371A5232FA5ED9259D /* Pods_AirtelIQTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D03448B04571DAE7F82D817 /* Pods_AirtelIQTests.framework */; };
+		DDFAF942F251F0169AA54EB7 /* Pods_AirtelIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC75340259C4058E80E30E7A /* Pods_AirtelIQ.framework */; };
+		E51553FD3A3732B1D44884EE /* Pods_AirtelIQUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD797642558507A2C1EEA387 /* Pods_AirtelIQUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27F51EA321B651D4002F7638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F51E8621B651D2002F7638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F51E8D21B651D2002F7638;
+			remoteInfo = QuickApp_iOS;
+		};
+		27F51EAE21B651D4002F7638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F51E8621B651D2002F7638 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F51E8D21B651D2002F7638;
+			remoteInfo = QuickApp_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27F51ED921B662FF002F7638 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01378BFACD5815A1FC48B190 /* Pods-AirtelIQ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQ.release.xcconfig"; path = "Target Support Files/Pods-AirtelIQ/Pods-AirtelIQ.release.xcconfig"; sourceTree = "<group>"; };
+		27F51E8E21B651D2002F7638 /* AirtelIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirtelIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F51E9121B651D2002F7638 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27F51E9621B651D2002F7638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F51E9821B651D3002F7638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F51E9B21B651D3002F7638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F51E9D21B651D3002F7638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F51EA221B651D4002F7638 /* AirtelIQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirtelIQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F51EA621B651D4002F7638 /* QuickApp_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickApp_iOSTests.swift; sourceTree = "<group>"; };
+		27F51EA821B651D4002F7638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F51EAD21B651D4002F7638 /* AirtelIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirtelIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F51EB121B651D4002F7638 /* QuickApp_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickApp_iOSUITests.swift; sourceTree = "<group>"; };
+		27F51EB321B651D4002F7638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F51EC521B65EEF002F7638 /* EnxJoinRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxJoinRoomViewController.swift; sourceTree = "<group>"; };
+		27F51EC721B65F06002F7638 /* EnxConfrenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxConfrenceViewController.swift; sourceTree = "<group>"; };
+		27F51EC921B65F1C002F7638 /* EnxMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxMenuViewController.swift; sourceTree = "<group>"; };
+		27F51ECB21B65F6D002F7638 /* EnxServicesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxServicesClass.swift; sourceTree = "<group>"; };
+		27F51ECD21B65F99002F7638 /* EnxNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxNetworkManager.swift; sourceTree = "<group>"; };
+		27F51ECF21B65FC1002F7638 /* EnxRoomInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxRoomInfoModel.swift; sourceTree = "<group>"; };
+		27F51ED121B65FE0002F7638 /* EnxConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnxConstant.swift; sourceTree = "<group>"; };
+		2EDF6F0C09BA11182205EB7E /* Pods-AirtelIQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQ.debug.xcconfig"; path = "Target Support Files/Pods-AirtelIQ/Pods-AirtelIQ.debug.xcconfig"; sourceTree = "<group>"; };
+		3D03448B04571DAE7F82D817 /* Pods_AirtelIQTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirtelIQTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE5E81E0A3295BDCB0A5A00 /* Pods-AirtelIQTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQTests.release.xcconfig"; path = "Target Support Files/Pods-AirtelIQTests/Pods-AirtelIQTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8317872D65934D53F68FCD3 /* Pods-AirtelIQUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQUITests.debug.xcconfig"; path = "Target Support Files/Pods-AirtelIQUITests/Pods-AirtelIQUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E6A2A947DF94150B410610 /* Pods-AirtelIQTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQTests.debug.xcconfig"; path = "Target Support Files/Pods-AirtelIQTests/Pods-AirtelIQTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC75340259C4058E80E30E7A /* Pods_AirtelIQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirtelIQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD797642558507A2C1EEA387 /* Pods_AirtelIQUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirtelIQUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE5CF32A42D278D4B85DFF /* Pods-AirtelIQUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirtelIQUITests.release.xcconfig"; path = "Target Support Files/Pods-AirtelIQUITests/Pods-AirtelIQUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F51E8B21B651D2002F7638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDFAF942F251F0169AA54EB7 /* Pods_AirtelIQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51E9F21B651D4002F7638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A831F1371A5232FA5ED9259D /* Pods_AirtelIQTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51EAA21B651D4002F7638 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51553FD3A3732B1D44884EE /* Pods_AirtelIQUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F51E8521B651D2002F7638 = {
+			isa = PBXGroup;
+			children = (
+				27F51E9021B651D2002F7638 /* AirtelIQ */,
+				27F51EA521B651D4002F7638 /* AirtelIQTests */,
+				27F51EB021B651D4002F7638 /* AirtelIQUITests */,
+				27F51E8F21B651D2002F7638 /* Products */,
+				E30F066A171BB65081C6AB51 /* Pods */,
+				6DF80E33FB63FF7EEF7EF1DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27F51E8F21B651D2002F7638 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F51E8E21B651D2002F7638 /* AirtelIQ.app */,
+				27F51EA221B651D4002F7638 /* AirtelIQTests.xctest */,
+				27F51EAD21B651D4002F7638 /* AirtelIQUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F51E9021B651D2002F7638 /* AirtelIQ */ = {
+			isa = PBXGroup;
+			children = (
+				27F51EC421B65E0A002F7638 /* AppDelegate */,
+				27F51EC021B65DFE002F7638 /* Headers */,
+				27F51EBF21B65DFD002F7638 /* Model */,
+				27F51EC221B65DFE002F7638 /* Reachability */,
+				27F51EC321B65DFE002F7638 /* Services */,
+				27F51EC121B65DFE002F7638 /* Controller */,
+				27F51E9521B651D2002F7638 /* Main.storyboard */,
+				27F51E9821B651D3002F7638 /* Assets.xcassets */,
+				27F51E9A21B651D3002F7638 /* LaunchScreen.storyboard */,
+				27F51E9D21B651D3002F7638 /* Info.plist */,
+			);
+			path = AirtelIQ;
+			sourceTree = "<group>";
+		};
+		27F51EA521B651D4002F7638 /* AirtelIQTests */ = {
+			isa = PBXGroup;
+			children = (
+				27F51EA621B651D4002F7638 /* QuickApp_iOSTests.swift */,
+				27F51EA821B651D4002F7638 /* Info.plist */,
+			);
+			path = AirtelIQTests;
+			sourceTree = "<group>";
+		};
+		27F51EB021B651D4002F7638 /* AirtelIQUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27F51EB121B651D4002F7638 /* QuickApp_iOSUITests.swift */,
+				27F51EB321B651D4002F7638 /* Info.plist */,
+			);
+			path = AirtelIQUITests;
+			sourceTree = "<group>";
+		};
+		27F51EBF21B65DFD002F7638 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27F51ECF21B65FC1002F7638 /* EnxRoomInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27F51EC021B65DFE002F7638 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				27F51ED121B65FE0002F7638 /* EnxConstant.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		27F51EC121B65DFE002F7638 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				27F51EC521B65EEF002F7638 /* EnxJoinRoomViewController.swift */,
+				27F51EC721B65F06002F7638 /* EnxConfrenceViewController.swift */,
+				27F51EC921B65F1C002F7638 /* EnxMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27F51EC221B65DFE002F7638 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				27F51ECD21B65F99002F7638 /* EnxNetworkManager.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		27F51EC321B65DFE002F7638 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				27F51ECB21B65F6D002F7638 /* EnxServicesClass.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		27F51EC421B65E0A002F7638 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				27F51E9121B651D2002F7638 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6DF80E33FB63FF7EEF7EF1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC75340259C4058E80E30E7A /* Pods_AirtelIQ.framework */,
+				3D03448B04571DAE7F82D817 /* Pods_AirtelIQTests.framework */,
+				DD797642558507A2C1EEA387 /* Pods_AirtelIQUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E30F066A171BB65081C6AB51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2EDF6F0C09BA11182205EB7E /* Pods-AirtelIQ.debug.xcconfig */,
+				01378BFACD5815A1FC48B190 /* Pods-AirtelIQ.release.xcconfig */,
+				D9E6A2A947DF94150B410610 /* Pods-AirtelIQTests.debug.xcconfig */,
+				4DE5E81E0A3295BDCB0A5A00 /* Pods-AirtelIQTests.release.xcconfig */,
+				C8317872D65934D53F68FCD3 /* Pods-AirtelIQUITests.debug.xcconfig */,
+				FFDE5CF32A42D278D4B85DFF /* Pods-AirtelIQUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F51E8D21B651D2002F7638 /* AirtelIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F51EB621B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQ" */;
+			buildPhases = (
+				B89B7BF4F8F7A5D6B687F25D /* [CP] Check Pods Manifest.lock */,
+				27F51E8A21B651D2002F7638 /* Sources */,
+				27F51E8B21B651D2002F7638 /* Frameworks */,
+				27F51E8C21B651D2002F7638 /* Resources */,
+				27F51ED921B662FF002F7638 /* Embed Frameworks */,
+				272FEEAA21C3C3FB00AFA0D0 /* ShellScript */,
+				F29A208C2E2593C062D461AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirtelIQ;
+			productName = QuickApp_iOS;
+			productReference = 27F51E8E21B651D2002F7638 /* AirtelIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27F51EA121B651D4002F7638 /* AirtelIQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F51EB921B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQTests" */;
+			buildPhases = (
+				2E2C1D0571D1D67D91F5394A /* [CP] Check Pods Manifest.lock */,
+				27F51E9E21B651D4002F7638 /* Sources */,
+				27F51E9F21B651D4002F7638 /* Frameworks */,
+				27F51EA021B651D4002F7638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F51EA421B651D4002F7638 /* PBXTargetDependency */,
+			);
+			name = AirtelIQTests;
+			productName = QuickApp_iOSTests;
+			productReference = 27F51EA221B651D4002F7638 /* AirtelIQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27F51EAC21B651D4002F7638 /* AirtelIQUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F51EBC21B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQUITests" */;
+			buildPhases = (
+				4F6996F68DBA166BAF2FE6E4 /* [CP] Check Pods Manifest.lock */,
+				27F51EA921B651D4002F7638 /* Sources */,
+				27F51EAA21B651D4002F7638 /* Frameworks */,
+				27F51EAB21B651D4002F7638 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F51EAF21B651D4002F7638 /* PBXTargetDependency */,
+			);
+			name = AirtelIQUITests;
+			productName = QuickApp_iOSUITests;
+			productReference = 27F51EAD21B651D4002F7638 /* AirtelIQUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F51E8621B651D2002F7638 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daljeet Singh";
+				TargetAttributes = {
+					27F51E8D21B651D2002F7638 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					27F51EA121B651D4002F7638 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 27F51E8D21B651D2002F7638;
+					};
+					27F51EAC21B651D4002F7638 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 27F51E8D21B651D2002F7638;
+					};
+				};
+			};
+			buildConfigurationList = 27F51E8921B651D2002F7638 /* Build configuration list for PBXProject "AirtelIQ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F51E8521B651D2002F7638;
+			productRefGroup = 27F51E8F21B651D2002F7638 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F51E8D21B651D2002F7638 /* AirtelIQ */,
+				27F51EA121B651D4002F7638 /* AirtelIQTests */,
+				27F51EAC21B651D4002F7638 /* AirtelIQUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F51E8C21B651D2002F7638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F51E9C21B651D3002F7638 /* LaunchScreen.storyboard in Resources */,
+				27F51E9921B651D3002F7638 /* Assets.xcassets in Resources */,
+				27F51E9721B651D2002F7638 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51EA021B651D4002F7638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51EAB21B651D4002F7638 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		272FEEAA21C3C3FB00AFA0D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/Fabric/run\" 6db66bb09589a86b6c8ca0a363283eae3d10fc21 95a89475e2a08b213555f788be00d1c32b3aec5692fd969f501e38aeea88ba0c\n";
+		};
+		2E2C1D0571D1D67D91F5394A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirtelIQTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6996F68DBA166BAF2FE6E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirtelIQUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89B7BF4F8F7A5D6B687F25D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirtelIQ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29A208C2E2593C062D461AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirtelIQ/Pods-AirtelIQ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AirtelIQ/Pods-AirtelIQ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirtelIQ/Pods-AirtelIQ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F51E8A21B651D2002F7638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F51EC821B65F06002F7638 /* EnxConfrenceViewController.swift in Sources */,
+				27F51ECE21B65F99002F7638 /* EnxNetworkManager.swift in Sources */,
+				27F51ECC21B65F6D002F7638 /* EnxServicesClass.swift in Sources */,
+				27F51ED221B65FE0002F7638 /* EnxConstant.swift in Sources */,
+				27F51EC621B65EEF002F7638 /* EnxJoinRoomViewController.swift in Sources */,
+				27F51ECA21B65F1C002F7638 /* EnxMenuViewController.swift in Sources */,
+				27F51ED021B65FC1002F7638 /* EnxRoomInfoModel.swift in Sources */,
+				27F51E9221B651D2002F7638 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51E9E21B651D4002F7638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F51EA721B651D4002F7638 /* QuickApp_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F51EA921B651D4002F7638 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F51EB221B651D4002F7638 /* QuickApp_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F51EA421B651D4002F7638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F51E8D21B651D2002F7638 /* AirtelIQ */;
+			targetProxy = 27F51EA321B651D4002F7638 /* PBXContainerItemProxy */;
+		};
+		27F51EAF21B651D4002F7638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F51E8D21B651D2002F7638 /* AirtelIQ */;
+			targetProxy = 27F51EAE21B651D4002F7638 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F51E9521B651D2002F7638 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F51E9621B651D2002F7638 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F51E9A21B651D3002F7638 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F51E9B21B651D3002F7638 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F51EB421B651D4002F7638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27F51EB521B651D4002F7638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F51EB721B651D4002F7638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EDF6F0C09BA11182205EB7E /* Pods-AirtelIQ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuickApp_iOS",
+				);
+				INFOPLIST_FILE = AirtelIQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27F51EB821B651D4002F7638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01378BFACD5815A1FC48B190 /* Pods-AirtelIQ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QuickApp_iOS",
+				);
+				INFOPLIST_FILE = AirtelIQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27F51EBA21B651D4002F7638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E6A2A947DF94150B410610 /* Pods-AirtelIQTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				INFOPLIST_FILE = QuickApp_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirtelIQ.app/AirtelIQ";
+			};
+			name = Debug;
+		};
+		27F51EBB21B651D4002F7638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE5E81E0A3295BDCB0A5A00 /* Pods-AirtelIQTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				INFOPLIST_FILE = QuickApp_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirtelIQ.app/AirtelIQ";
+			};
+			name = Release;
+		};
+		27F51EBD21B651D4002F7638 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8317872D65934D53F68FCD3 /* Pods-AirtelIQUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				INFOPLIST_FILE = QuickApp_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickApp_iOS;
+			};
+			name = Debug;
+		};
+		27F51EBE21B651D4002F7638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDE5CF32A42D278D4B85DFF /* Pods-AirtelIQUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BH56368Y47;
+				INFOPLIST_FILE = QuickApp_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.enx.quickapp.QuickApp-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickApp_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F51E8921B651D2002F7638 /* Build configuration list for PBXProject "AirtelIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F51EB421B651D4002F7638 /* Debug */,
+				27F51EB521B651D4002F7638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F51EB621B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F51EB721B651D4002F7638 /* Debug */,
+				27F51EB821B651D4002F7638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F51EB921B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F51EBA21B651D4002F7638 /* Debug */,
+				27F51EBB21B651D4002F7638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F51EBC21B651D4002F7638 /* Build configuration list for PBXNativeTarget "AirtelIQUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F51EBD21B651D4002F7638 /* Debug */,
+				27F51EBE21B651D4002F7638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F51E8621B651D2002F7638 /* Project object */;
+}
