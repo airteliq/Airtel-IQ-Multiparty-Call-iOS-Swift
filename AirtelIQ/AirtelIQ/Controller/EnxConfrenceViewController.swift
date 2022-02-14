@@ -9,7 +9,7 @@
 import Foundation
 
 import UIKit
-import EnxRTCiOS
+import VideoIQiOS
 import SVProgressHUD
 class EnxConfrenceViewController: UIViewController {
     @IBOutlet weak var sendLogBtn: UIButton!
